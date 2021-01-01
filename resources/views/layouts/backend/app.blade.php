@@ -107,7 +107,7 @@
                         </li>
                         <li class="menu-title">Header</li><!-- /.menu-title -->
                         <li class="menu-item-has-children dropdown">
-                            <a href=""
+                            <a href="{{ route('admin.header') }}"
                                 class="dropdown-toggle"
                                 data-toggle="dropdown"
                                 aria-haspopup="true"
