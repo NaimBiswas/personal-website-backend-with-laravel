@@ -111,7 +111,7 @@
                                 class="dropdown-toggle"
                                 data-toggle="dropdown"
                                 aria-haspopup="true"
-                                aria-expanded="false"> <i class="menu-icon fa-star-half-o"></i>Head
+                                aria-expanded="false"> <i class="menu-icon fa fa-rocket"></i>Head
                                 Section</a>
                         </li>
                     </ul>
