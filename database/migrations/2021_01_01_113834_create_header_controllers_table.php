@@ -15,6 +15,11 @@ class CreateHeaderControllersTable extends Migration
     {
         Schema::create('header_controllers', function (Blueprint $table) {
             $table->id();
+            $table->text('heading')->nullable();
+            $table->text('static_text')->nullable();
+            $table->text('dynamic_text')->nullable();
+            $table->string('get_start')->nullable();
+            $table->string('learn_more')->nullable();
             $table->timestamps();
         });
     }
