@@ -23,4 +23,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 Route::group(['as' => 'admin.', 'prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::get('header', [HeaderControllerController::class, 'index'])->name('header');
+    Route::post('header/store', [HeaderControllerController::class, 'store'])->name('header.store');
+    Route::post('header/images/store', [HeaderControllerController::class, 'imagesStore'])->name('header.images.store');
 });
