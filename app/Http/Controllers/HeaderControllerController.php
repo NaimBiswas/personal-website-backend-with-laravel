@@ -26,7 +26,7 @@ class HeaderControllerController extends Controller
             'static_text' => $request->static_text,
             'dynamic_text' => $request->static_text,
         ]);
-        return back()->with('success', 'Info Add Success')
+        return back()->with('success', 'Info Add Success');
     }
     public function imagesStore(Request $request)
     {
