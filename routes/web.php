@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\HeaderController;
+use App\Http\Controllers\HeaderControllerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,5 +22,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('backend.dashboard');
 })->name('dashboard');
 Route::group(['as' => 'admin.', 'prefix' => 'admin', 'middleware' => 'auth'], function () {
-    Route::get('backend.header.index', [HeaderController::class, 'index'])->name('header');
+    Route::get('header', [HeaderControllerController::class, 'index'])->name('header');
 });

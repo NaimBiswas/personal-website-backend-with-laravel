@@ -107,11 +107,7 @@
                         </li>
                         <li class="menu-title">Header</li><!-- /.menu-title -->
                         <li class="menu-item-has-children dropdown">
-                            <a href="{{ route('admin.header') }}"
-                                class="dropdown-toggle"
-                                data-toggle="dropdown"
-                                aria-haspopup="true"
-                                aria-expanded="false"> <i class="menu-icon fa fa-rocket"></i>Head
+                            <a href="{{ route('admin.header') }}"> <i class="menu-icon fa fa-rocket"></i>Head
                                 Section</a>
                         </li>
                     </ul>
