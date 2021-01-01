@@ -113,7 +113,6 @@
                                 aria-haspopup="true"
                                 aria-expanded="false"> <i class="menu-icon fa-star-half-o"></i>Head
                                 Section</a>
-
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
