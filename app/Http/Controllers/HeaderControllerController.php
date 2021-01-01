@@ -20,12 +20,14 @@ class HeaderControllerController extends Controller
             'dynamic_text' => 'required|max:40',
 
         ]);
+
         $header = HeaderController::create([
 
             'header' => $request->header,
             'static_text' => $request->static_text,
             'dynamic_text' => $request->static_text,
         ]);
+
         return back()->with('success', 'Info Add Success');
     }
     public function imagesStore(Request $request)

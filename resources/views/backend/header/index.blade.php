@@ -1,6 +1,7 @@
 @extends('layouts.backend.app')
 @section('content')
 <div class="row">
+    @include('include.error')
     <div class="col-lg-6 col-sm-12 col-xs-12">
         <div class="card">
             <div class="card-header">
